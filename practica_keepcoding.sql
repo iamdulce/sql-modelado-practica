@@ -359,3 +359,6 @@ group by
 	p.numero_poliza,
 	a.nombre 
 order by v.matricula 
+
+-- elimino tabla temporal
+drop table flota_keepcoding.coches 
